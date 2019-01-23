@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Elments List</title>
+</head>
+	<h1>Elements List</h1>
+
+<body>
+	
+		<h2>Main root</h2>
+	<li><code>&lt;html&gt;</code>-Representa a raiz (elemento de nível superior) de um documento HTML, por isso também é chamado de elemento raiz. Todos os outros elementos devem ser descendentes desse elemento.</li>
+		<h2>Document metadata</h2>
+	<li><code>&lt;link&gt;</code>-Especifica relações entre o documento atual e um recurso externo. Esse elemento é mais comumente usado para vincular a folhas de estilo, mas também é usado para estabelecer ícones de sites (ícones de estilo "favicon" e ícones de tela inicial / aplicativos móveis), entre outras coisas.</li>
+	<li><code>&lt;meta&gt;</code>-Representa metadados que não podem ser representados por outros elementos relacionados a meta HTML</li>
+	<li><code>&lt;style&gt;</code>-Contém informações de estilo para um documento ou parte de um documento</li>
+	<li><code>&lt;title&gt;</code>-Define o título do documento exibido na barra de título de um navegador ou na guia de uma página.</li>
+	<h2> Sectioning root </h2>
+	<li><code>&lt;body&gt;</code>-representa o conteúdo de um documento HTML. Pode haver apenas um elemento &lt;body&gt; em um documento.</li>
+	
+	<h2>Content sectioning</h2>
+    <li><code>&lt;adress&gt;</code>-Referência de elementos HTML - HTML: HyperText Markup Language | MDN</li>
+	<li><code>&lt;article&gt;</code>-representa uma composição independente em um documento, página, aplicativo ou site, que se destina a ser distribuído independentemente ou reutilizável</li>
+	<li><code>&lt;aside&gt;</code>-representa uma parte de um documento cujo conteúdo está apenas indiretamente relacionado ao conteúdo principal do documento.</li>
+	<li><code>&lt;footer&gt;</code>-representa um rodapé para o conteúdo de corte mais próximo ou elemento raiz de seção. Um rodapé normalmente contém informações sobre o autor da seção, dados de direitos autorais ou links para documentos relacionados.</li>
+	<li><code>&lt;header&gt;</code>-representa conteúdo introdutório, geralmente um grupo de auxílios introdutórios ou de navegação. Ele pode conter alguns elementos de título, mas também outros elementos, como um logotipo, um formulário de pesquisa, um nome de autor e assim por diante.</li>
+	<li><code>&lt;h1,h2,h3...&gt;</code>-os elementos representam seis níveis de cabeçalhos de seção.h1 é o nível de seção mais alto e h6 é o mais baixo.</li>
+	<li><code>&lt;hgroup&gt;</code>-representa um cabeçalho de vários níveis para uma seção de um documento. Agrupa um conjunto de elementos h1 – h6.</li>
+	<li><code>&lt;main&gt;</code>-representa o conteúdo dominante do&lt;body&gt;de um documento. A área de conteúdo principal consiste em conteúdo diretamente relacionado ou expandido sobre o tópico central de um documento ou a funcionalidade central de um aplicativo.</li>
+	<li><code>&lt;nav&gt;</code>-representa uma seção de uma página cujo objetivo é fornecer links de navegação, seja dentro do documento atual ou para outros documentos. Exemplos comuns de seções de navegação são menus, tabelas de conteúdo e índices.</li>
+	<li><code>&lt;section&gt;</code>-representa uma seção independente - que não possui um elemento semântico mais específico para representá-la - contida em um documento HTML.</li>
+	<h2>Text content</h2>
+	<li><code>&lt;blockquote&gt;</code>-indica que o texto em anexo é uma cotação extendida. Geralmente, isso é processado visualmente por recuo (consulte Notas sobre como alterá-lo). Um URL para a origem da cotação pode ser dado usando o atributo cite, enquanto uma representação de texto da fonte pode ser dada usando o elemento&lt;cite&gt;.</li>
+	<li><code>&lt;dd&gt;</code>-fornece os detalhes sobre ou a definição do termo anterior (&lt;dt&gt;) em uma lista de descrições (&lt;dl&gt;).</li>
+	<li><code>&lt;dir&gt;</code>-O obsoleto (&lt;dir&gt;) é usado como um contêiner para um diretório de arquivos e / ou pastas, potencialmente com estilos e ícones aplicados pelo agente do usuário.</li>
+	<li><code>&lt;div&gt;</code>-(&lt;div&gt;) é o contêiner genérico para o conteúdo de fluxo. Não tem efeito sobre o conteúdo ou layout até estilizado usando CSS.</li>
+	<li><code>&lt;dl&gt;</code>-O elemento HTML &lt;dl&gt; representa uma lista de descrições. O elemento inclui uma lista de grupos de termos (especificados usando o elemento &lt;dt&gt;) e descrições (fornecidas por elementos &lt;dd&gt;). Usos comuns para este elemento são implementar um glossário ou exibir metadados (uma lista de pares de valores-chave).</li>
+	<li><code>&lt;dt&gt;</code>-O elemento HTML &lt;dt&gt; especifica um termo em uma descrição ou lista de definição e, como tal, deve ser usado dentro de um elemento &lt;dl&gt;.</li>
+	<li><code>&lt;figcaption&gt;</code>-O elemento &lt;figcaption&gt; HTML representa uma legenda ou legenda para o resto do conteúdo do elemento pai &lt;figure&gt;, se houver.</li>
+	<li><code>&lt;figure&gt;</code>-O elemento HTML &lt;figure&gt; representa conteúdo independente, frequentemente com uma legenda (&lt;figcaption&gt;) e é normalmente referenciado como uma única unidade.</li>
+	<li><code>&lt;hr&gt;</code>-O elemento HTML &lt;hr&gt; representa uma quebra temática entre elementos de nível de parágrafo: por exemplo, uma mudança de cena em uma história ou uma mudança de tópico com uma seção.</li>
+	<li><code>&lt;li&gt;</code>-O elemento HTML &lt;li&gt; é usado para representar um item em uma lista. Ele deve estar contido em um elemento pai: uma lista ordenada (&lt;ol&gt;), uma lista não ordenada (&lt;ul&gt;) ou um menu (&lt;menu&gt;). Em menus e listas não ordenadas, os itens da lista são normalmente exibidos usando marcadores. Em listas ordenadas, elas geralmente são exibidas com um contador crescente à esquerda, como um número ou uma letra.</li>
+	<li><code>&lt;main&gt;</code>-O elemento HTML &lt;main&gt; representa o conteúdo dominante do &lt;body&gt; de um documento. A área de conteúdo principal consiste em conteúdo diretamente relacionado ou expandido sobre o tópico central de um documento ou a funcionalidade central de um aplicativo.</li>
+	<li><code>&lt;ol&gt;</code>-O elemento HTML &lt;ol&gt; representa uma lista ordenada de itens, geralmente renderizada como uma lista numerada.</li>
+	<li><code>&lt;p&gt;</code>-O elemento HTML &lt;p&gt; representa um parágrafo.</li>
+	<li><code>&lt;pre&gt;</code>-O elemento &lt;pre&gt; HTML representa o texto pré-formatado que deve ser apresentado exatamente como está escrito no arquivo HTML.</li>
+	<li><code>&lt;ul&gt;</code>-O elemento HTML &lt;ul&gt; representa uma lista não ordenada de itens, geralmente renderizada como uma lista com marcadores.</li>
+	<h2>Inline text semantics</h2>
+	<li><code>&lt;a&gt;</code>-cria um hiperlink para outras páginas da Web, arquivos, locais na mesma página, endereços de e-mail ou qualquer outro URL.</li>
+	<li><code>&lt;abbr&gt;</code>-representa uma abreviatura ou acrônimo; o atributo de título opcional pode fornecer uma expansão ou descrição para a abreviação.</li>
+	<li><code>&lt;b&gt;</code>-é usado para chamar a atenção do leitor para o conteúdo do elemento, que, de outra forma, não recebe uma importância especial.</li>
+	<li><code>&lt;bdi&gt;</code>-informa ao algoritmo bidirecional do navegador para tratar o texto que ele contém isoladamente de seu texto circundante.</li>
+	<li><code>&lt;bdo&gt;</code>-substitui a direcionalidade atual do texto, para que o texto seja renderizado em uma direção diferente.</li>
+	<li><code>&lt;br&gt;</code>-produz uma quebra de linha no texto (retorno do carro). É útil para escrever um poema ou um endereço, onde a divisão de linhas é significativa.</li>
+	<li><code>&lt;cite&gt;</code>-é usado para descrever uma referência a um trabalho criativo citado e deve incluir o título ou o autor ou o URL desse trabalho.</li>
+	<li><code>&lt;code&gt;</code>-exibe seu conteúdo estilizado de forma a indicar que o texto é um pequeno fragmento de código de computador.</li>
+	<li><code>&lt;data&gt;</code>-liga um determinado conteúdo a uma tradução legível por máquina. Se o conteúdo estiver relacionado a hora ou data, o elemento &lt;time&gt; deve ser usado.</li>
+	<li><code>&lt;dfn&gt;</code>-é usado para indicar o termo que está sendo definido dentro do contexto de uma frase ou sentença de definição.</li>
+	<li><code>&lt;em&gt;</code>-marca o texto que tem ênfase no estresse. O elemento <em> pode ser aninhado, com cada nível de aninhamento indicando um maior grau de ênfase</li>
+	<li><code>&lt;i&gt;</code>-representa um intervalo de texto que é separado do texto normal por algum motivo. Alguns exemplos incluem termos técnicos, frases de idiomas estrangeiros ou pensamentos de personagens fictícios. Normalmente é exibido em tipo itálico</li>
+	<li><code>&lt;kbd&gt;</code>-represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device.</li>
+	<li><code>&lt;mark&gt;</code>-represents text which is marked or highlighted for reference or notation purposes, due to the marked passage's relevance or importance in the enclosing context.</li>
+	<li><code>&lt;q&gt;</code>-indica que o texto em anexo é uma cotação curta em linha. A maioria dos navegadores modernos implementam isso cercando o texto entre aspas.</li>
+	<li><code>&lt;rb&gt;</code>-é usado para delimitar o componente de texto base de uma anotação ruby, ou seja, o texto que está sendo anotado.</li>
+	<li><code>&lt;rp&gt;</code>-é usado para fornecer parênteses de fall-back para navegadores que não suportam a exibição de anotações ruby usando o elemento ruby.</li>
+	<li><code>&lt;rt&gt;</code>-especifica o componente de texto rubi de uma anotação rubi, que é usada para fornecer informações de pronúncia, tradução ou transliteração para tipografia do Leste Asiático. O elemento rt deve estar sempre contido em um elemento ruby.</li>
+	<li><code>&lt;rtc&gt;</code>-abrange anotações semânticas de caracteres apresentados em um rubi de elementos rb usados dentro do elemento ruby. Os elementos rb podem ter as duas anotações de pronúncia (rt) e semântica (rtc).</li>
+	<li><code>&lt;ruby&gt;</code>-representa uma anotação rubi. Anotações Ruby são para mostrar pronúncia de caracteres do leste asiático.</li>
+	<li><code>&lt;s&gt;</code>-renderiza texto com tachado ou uma linha através dele. Use o elemento s para representar coisas que não são mais relevantes ou que não são mais precisas. No entanto, s não é apropriado ao indicar edições de documentos; para isso, use os elementos del e ins, conforme apropriado.</li>
+	<li><code>&lt;samp&gt;</code>-é usado para incluir texto embutido que representa a saída de amostra (ou cotada) de um programa de computador.</li>
+	<li><code>&lt;small&gt;</code>-torna o tamanho da fonte do texto um tamanho menor (por exemplo, de grande para médio, ou de pequeno para x-pequeno) até o tamanho de fonte mínimo do navegador. Em HTML5, esse elemento é redefinido para representar comentários secundários e letras pequenas, incluindo direitos autorais e texto jurídico, independentemente de sua apresentação estilizada.</li>
+	<li><code>&lt;span&gt;</code>-é um contêiner in-line genérico para conteúdo de frases, que não representa nada inerentemente. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id) ou porque eles compartilham valores de atributos, como lang.</li>
+	<li><code>&lt;ol&gt;</code>-</li>
+	<li><code>&lt;ol&gt;</code>-</li>
+	<li><code>&lt;ol&gt;</code>-</li>
+	<li><code>&lt;ol&gt;</code>-</li>
+	<li><code>&lt;ol&gt;</code>-</li>
+	<li><code>&lt;ol&gt;</code>-</li>
+	<li><code>&lt;ol&gt;</code>-</li>
